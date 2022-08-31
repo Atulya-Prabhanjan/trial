@@ -8,7 +8,8 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
       animation: {
-        'spin-slow': 'spin 3s linear 1',
+        'spin': 'spin 1s linear 1',
+        'spin-logo': 'spin 3s linear infinite',
       },
     },
   },

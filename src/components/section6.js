@@ -1,9 +1,9 @@
 import Testimonial from "./testimonial";
 
 function Section6(){
-    return(<div id="Section6" className="flex space-x-24 space-y-16 ...">
-        <h1 className="text-sm font-large text-gray-900">Testimonials</h1>
-        <h2 className="text-sm font-medium text-gray-900">People love this!</h2>
+    return(<div id="Section6" className="flex space-x-40 space-y-4 text-center ...">
+        <h1 className="text-4xl font-mono text-gray-900 text-center">Testimonials</h1>
+        <h2 className="text-2xl font-mono text-gray-900 text-center">People love this!</h2>
         <div style={{textAlign: "center",display: "inline-block"}}><Testimonial/></div>
         <div style={{textAlign: "center",display: "inline-block"}}><Testimonial/></div>
         <div style={{textAlign: "center",display: "inline-block"}}><Testimonial/></div>

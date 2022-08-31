@@ -9,11 +9,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(9, 185, 127);
+  background-color: rgb(218, 164, 49);
 }
 
 button{
-  background-color: rgb(177, 114, 32);
+  background-color: rgb(177, 22, 22);
   border-radius: 10px;
   padding: 10px;
 }
@@ -37,7 +37,7 @@ code {
   margin-right: 220px;
 }
 
-.Nav{
+#Nav{
   display: inline;
   position: relative;
   margin-left: 20px;
@@ -92,10 +92,11 @@ code {
 
 #Section2{
   padding: 10px 40px;
+  margin-left: 10%;
+  left:15%;
   text-align: center;
-  margin: 50px;
-  line-height: 40px;
-  display: inline;
+  line-height: 10px;
+  display: inline-block;
 }
 
 .quiz{
@@ -128,29 +129,27 @@ code {
 }
 
 #Section4{
-  top: 90px;
-  display: inline;
+  align-items: center;
   position: relative;
+  left:10%;
+  display: inline-block;
   padding-top: 50px;
   margin: 100px;
 }
 
 #Section5{
-  top: 180px;
-  display: inline;
+  left:10%;
+  align-items: center;
   position: relative;
+  display: inline-block;
   padding-top: 50px;
-  margin: 100px;
+  margin: 40px;
 }
 
 #Section6{
-  position: relative;
-  top: 180px;
-  padding: 10px 10px;
-  margin: 50px;
+  left:13%;
   text-align: center;
-  line-height: 40px;
-  display: inline;
+  display: inline-block;
 }
 
 #Section7{
@@ -159,14 +158,13 @@ code {
   text-align: center;
   margin: 50px;
   line-height: 40px;
-  display: inline;
-  top: 180px;
+  display: inline-block;
 }
 
 .Footer{
   position: relative;
   text-align: left;
-  padding: 20px;
+  padding: 30px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: rgb(224, 210, 129);
@@ -201,4 +199,9 @@ code {
   margin: 50px;
   line-height: 40px;
   display: inline;
+}
+
+#subscribe{
+  margin-left: 38%;
+  margin-top: 30px;
 }
