@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      animation: {
+        'spin-slow': 'spin 3s linear 1',
+      },
     },
   },
   plugins: [],

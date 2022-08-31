@@ -12,15 +12,6 @@ body {
   background-color: rgb(9, 185, 127);
 }
 
-.logo{
-  display: inline-block;
-  position: absolute;
-  top: 5px;
-  left: 15px;
-  height: 80px;
-  width: 80px;
-}
-
 button{
   background-color: rgb(177, 114, 32);
   border-radius: 10px;
@@ -48,6 +39,7 @@ code {
 
 .Nav{
   display: inline;
+  position: relative;
   margin-left: 20px;
   margin-right: 10px;
   padding-left: 30px;
@@ -62,7 +54,7 @@ code {
   margin-right: 10px;
 }
 
-.Section1{
+#Section1{
   padding: 100px 200px;
   line-height: 40px;
 }
@@ -98,7 +90,7 @@ code {
   background-size: 1500px 200px;
 }*/
 
-.Section2{
+#Section2{
   padding: 10px 40px;
   text-align: center;
   margin: 50px;
@@ -135,7 +127,7 @@ code {
   display: block;
 }
 
-.Section4{
+#Section4{
   top: 90px;
   display: inline;
   position: relative;
@@ -143,7 +135,7 @@ code {
   margin: 100px;
 }
 
-.Section5{
+#Section5{
   top: 180px;
   display: inline;
   position: relative;
@@ -151,7 +143,7 @@ code {
   margin: 100px;
 }
 
-.Section6{
+#Section6{
   position: relative;
   top: 180px;
   padding: 10px 10px;
@@ -161,7 +153,7 @@ code {
   display: inline;
 }
 
-.Section7{
+#Section7{
   position: relative;
   padding: 10px 40px;
   text-align: center;

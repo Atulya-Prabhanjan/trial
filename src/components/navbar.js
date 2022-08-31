@@ -6,7 +6,7 @@ import Login from "./login";
 function Navbar(){
     return(<div className="Nav-Bar">
         <div className="Nav-Element">
-            <Link to={Home} style={{ textDecoration: 'none', color: 'grey' }}><img src={logo} className="logo"/></Link>
+            <Link to={Home} style={{ textDecoration: 'none', color: 'grey' }}><img src={logo} className="animate-spin" style={{display: "inline-block",position: "absolute",top:"0px",left:"3px",height: "80px",width: "80px"}}/></Link>
             <Link to={Home} style={{ textDecoration: 'none', color: 'grey' }}><h2 className="Nav">Features</h2></Link>
             <Link to={Home} style={{ textDecoration: 'none', color: 'grey' }}><h2 className="Nav">Pricing</h2></Link>
             <Link to={Home} style={{ textDecoration: 'none', color: 'grey' }}><h2 className="Nav">Book a demo</h2></Link>

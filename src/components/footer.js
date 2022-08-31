@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 function Footer(){
     return(<div className="Footer" style={{top:"180px"}}>
         <div className="Foo-Element">
-            <Link to={Home} style={{ textDecoration: 'none', color: 'grey' }}><img src={logo} className="logo"/></Link>
+            <Link to={Home} style={{ textDecoration: 'none', color: 'grey' }}><img src={logo}  className="animate-spin" style={{display: "inline-block",position: "absolute",top:"0px",left:"3px",height: "80px",width: "80px"}}/></Link>
             <Link to={Home} style={{ textDecoration: 'none', color: 'grey' }}><h2 className="Foo">About</h2></Link>
             <Link to={Home} style={{ textDecoration: 'none', color: 'grey' }}><h2 className="Foo">Privacy Policy</h2></Link>
             <Link to={Home} style={{ textDecoration: 'none', color: 'grey' }}><h2 className="Foo">T and C</h2></Link>
