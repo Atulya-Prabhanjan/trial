@@ -1,7 +1,7 @@
 function Section1(){
     return(<div className="Section1">
-        <h1>Product</h1>
-        <h2>Description</h2>
+        <h1 className="text-sm font-medium text-gray-900">Product</h1>
+        <h2 className="text-sm font-medium text-gray-900">Description</h2>
         <button>Book a Demo</button>
     </div>)
 }

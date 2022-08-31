@@ -1,6 +1,6 @@
 function Section3(){
     return(<div className="Section3">
-        <div className="title"></div>
+        <img src={process.env.PUBLIC_URL+"title.jpg"} style={{height:"200px",width:"2250px"}}/>
     </div>)
 }
 

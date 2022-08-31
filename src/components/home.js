@@ -12,7 +12,7 @@ function Home(){
     return(<div>
         <Navbar/>
         <Section1/>
-        <h1 style={{textAlign:"center"}}>Simple platform for organising shift work</h1>
+        <h1 style={{textAlign:"center"}} className="text-sm font-medium text-gray-900">Simple platform for organising shift work</h1>
         <Section2/>
         <Section3/>
         <Section4/>
